@@ -1,0 +1,36 @@
+{
+    "name" : "Dino Alpha Test",
+    "version" : "1.0",
+    "description" : "playing around",
+    "permissions" : [
+        "storage", 
+        "declarativeContent", 
+        "activeTab",
+        "tabs",
+        "webRequest", 
+        "webRequestBlocking",
+        "http://www.google.com/"
+    ],
+    "background" : {
+        "scripts" : ["background.js"],
+        "persistent" : true
+    },
+    "page_action" : {
+        "default_popup" : "popup.html",
+        "default_icon" : {
+            "16" : "images/char16.png",
+            "32" : "images/char32.png",
+            "48" : "images/char48.png",
+            "128" : "images/char128.png"
+        }
+    },
+
+    "icons" : {
+        "16" : "images/char16.png",
+        "32" : "images/char32.png",
+        "48" : "images/char48.png",
+        "128" : "images/char128.png"
+    },
+    "options_page" : "options.html",
+    "manifest_version" : 2
+}
