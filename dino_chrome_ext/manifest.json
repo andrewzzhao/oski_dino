@@ -20,7 +20,9 @@
         "browser_style": true,
         "default_icon": {
           "16": "images/char16.png",
-          "32": "images/char32.png"
+          "32": "images/char32.png",
+          "48" : "images/char48.png",
+          "128" : "images/char128.png"
         },
         "default_title": "Welcome to Oski Game!"
     },
