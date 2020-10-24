@@ -7,7 +7,9 @@ window.addEventListener('offline', (event) => {
       url: chrome.runtime.getURL("ALPHA_TEST/index.html"),
       type: "popup"
     });
-  } 
+  } else {
+    alert("PARTY POOPER! \n 🥺🥺🥺");
+  }
 });
 
 chrome.browserAction.onClicked.addListener(function(tab){
